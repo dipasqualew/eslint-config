@@ -1,6 +1,7 @@
-module.exports = {
-    root: true,
+const vars = require('./vars');
 
+
+module.exports = {
     parserOptions: {
         ecmaVersion: 2017,
     },
@@ -13,8 +14,8 @@ module.exports = {
 
     rules: {
         'comma-dangle': ['error', 'always-multiline'],
-        'indent': ['error', 4],
-        'no-multiple-empty-lines': ['error', { max: 2 }],
+        'indent': ['error', vars.INDENTATION],
+        'no-multiple-empty-lines': ['error', { max: vars.MAX_EMPTY_LINES }],
         'no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
         "prefer-destructuring": ["error", { "object": true, "array": false }],
         'semi': ['error', 'always'],
