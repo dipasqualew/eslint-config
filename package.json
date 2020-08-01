@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-dipasqualew",
+  "version": "1.0.0",
+  "description": "William Di Pasquale's Eslint configurations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipasqualew/eslint-config-dipasqualew.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "William Di Pasquale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dipasqualew/eslint-config-dipasqualew/issues"
+  },
+  "homepage": "https://github.com/dipasqualew/eslint-config-dipasqualew#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
