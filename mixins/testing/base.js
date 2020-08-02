@@ -7,6 +7,5 @@ module.exports = {
       'func-names': 'off',
       'no-console': 'off',
       'no-unused-expressions': 'off',
-      'quotes': ['error', 'single'],
     }
   }
