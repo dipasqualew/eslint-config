@@ -10,17 +10,17 @@
  *
  * @const
  */
-const INDENTATION = process.env.ESLINT_INDENTATION || 2;
+const INDENTATION = Number(process.env.ESLINT_INDENTATION) || 2;
 
 /**
  * Maximum empty lines.
  *
  * @const
  */
-const MAX_EMPTY_LINES = process.env.ESLINT_MAX_EMPTY_LINES || 2;
+const MAX_EMPTY_LINES = Number(process.env.ESLINT_MAX_EMPTY_LINES) || 2;
 
 
 module.exports = {
-    INDENTATION,
-    MAX_EMPTY_LINES,
+  INDENTATION,
+  MAX_EMPTY_LINES,
 };
