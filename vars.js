@@ -10,7 +10,7 @@
  *
  * @const
  */
-const INDENTATION = process.env.ESLINT_INDENTATION || 4;
+const INDENTATION = process.env.ESLINT_INDENTATION || 2;
 
 /**
  * Maximum empty lines.

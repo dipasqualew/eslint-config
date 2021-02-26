@@ -22,5 +22,9 @@
   "homepage": "https://github.com/dipasqualew/eslint-config-dipasqualew#readme",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2"
   }
 }
