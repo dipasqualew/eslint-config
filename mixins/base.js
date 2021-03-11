@@ -9,6 +9,9 @@ module.exports = {
     "node": true,
   },
   "rules": {
+    "arrow-body-style": "off",
+    "camelcase": "off",
+    "class-methods-use-this": "off",
     'indent': ['error', vars.INDENTATION],
     "linebreak-style": "off",
     "max-len": "off",

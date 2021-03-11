@@ -15,5 +15,7 @@ module.exports = {
     "no-shadow": "off",
     "@typescript-eslint/semi": "error",
     "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
   },
 }
